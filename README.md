@@ -1,6 +1,5 @@
 # Computation-of-2D-and-3D-high-order-discrete-orthogonal-moments
- The content of this repository is related to the project that helps eliminate numerical instability and high-order orthogonal moment computation error.
- 
+ The content of this repository is related to the project that helps eliminate numerical instability and high-order orthogonal moment calculation error while preserving it's orthogonality, which is one of the most important properties of these types of functions.
 ### Kernel computation of discrete moments
 
 The high-order orthogonal polynomial base causes a numerical instability that makes it difficult to calculate the moments. In this project, we analyze the calculation of the following discrete orthogonal polynomials,
