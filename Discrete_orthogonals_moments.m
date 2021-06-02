@@ -7,8 +7,8 @@
 %   discrete-orthogonal-moments.git                                            %
 %                                                                              %
 %                                                                              %
-%   This code calculate the discrete orthogonal Tchebichef polynomial          % 
-%   for high order, using Gram-smith orthogonalization.'                       %
+%   This code calculate the discrete orthogonal Moments for high order         % 
+%                                                                              %
 %                                                                              %
 %                                                                              %
 %                                                                              %
