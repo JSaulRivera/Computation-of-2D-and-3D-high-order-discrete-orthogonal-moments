@@ -14,17 +14,17 @@
 %                                                                              %
 %   Please cite the following documents as:                                    %
 %                                                                              %
-%  *  JosÈ S. Rivera-Lopez, CÈsar Camacho-Bello, and Lucia                     %
-%     GutiÈrrez-Lazcano, Chapter 3: ìComputation of 2D and 3D High-order       %
-%     Discrete Orthogonal Momentsî. Recent Progress in Image Moments and       %
+%  *  Jos√© S. Rivera-Lopez, C√©sar Camacho-Bello, and Lucia                     %
+%     Guti√©rrez-Lazcano, Chapter 3: ‚ÄúComputation of 2D and 3D High-order       %
+%     Discrete Orthogonal Moments‚Äù. Recent Progress in Image Moments and       %
 %     Moment Invariants, GCSR Volume 7 (2021), 53-74, DOI: 10.15579/gcsr.      %
 %     vol7.ch3.                                                                %
 %                                                                              %
 %        Bibtex:                                                               %
 %        @article{Rivera2021Recent,                                            %
 %        title={Recent Progress in Image Moments and Moment Invariants},       %
-%        author={JosÈ S. Rivera-Lopez and CÈsar Camacho-Bello and Lucia        %
-%        GutiÈrrez-Lazcano},                                                   %
+%        author={Jos√© S. Rivera-Lopez and C√©sar Camacho-Bello and Lucia        %
+%        Guti√©rrez-Lazcano},                                                   %
 %        journal={Science Gate},                                               %
 %        volume={7},                                                           %
 %        pages={53--74},                                                       %
@@ -34,9 +34,9 @@
 %        }                                                                     %
 %                                                                              %
 %                                                                              %
-%  *  C. Camacho-Bello and J. S. Rivera-Lopez, ìSome computational aspects     %
-%     of tchebichef moments for higher orders,îPattern Recognition             %
-%     Letters, vol. 112, pp. 332ñ339, 2018.                                    %
+%  *  C. Camacho-Bello and J. S. Rivera-Lopez, ‚ÄúSome computational aspects     %
+%     of tchebichef moments for higher orders,‚ÄùPattern Recognition             %
+%     Letters, vol. 112, pp. 332‚Äì339, 2018.                                    %
 %                                                                              %
 %        Bibtex:                                                               % 
 %        @article{camacho2018some,                                             %
@@ -63,7 +63,7 @@ imagen= imread('Test_image.jpeg');
 [N M]=size(imagen(:,:,1));
 
 % Order moments
- n=9600;
+ n=N;
 
  % Obtain Polynomial base
  Polynomial_base = Tchebycheff_polynomials(n,N);
