@@ -54,4 +54,4 @@ https://sciencegatepub.com/?smd_process_download=1&download_id=3179
 1. Download this repository.
 2. To obtain discrete ortogonal moments of image test  run the file "Discrete_orthogonal_moments.m" using Matlab.
 3. By default the value assigned for the order of calculation of the moment is the maximum possible. Change the value of "n" in line 66 from "Discrete_orthogonal_moments.m", to obtain different orders of discrete orthogonal moments form image test.
-4. By default set discrete orthogonal polynomials is Tchebichef polynomial. For obtain different set polynomial modify line 70 from "Discrete_orthogonal_moments.m" corresponding to the calculation of the polynomial base.
+4. By default set discrete orthogonal polynomials is Tchebichef polynomial. For obtain different set polynomial modify line 69 from "Discrete_orthogonal_moments.m" corresponding to the calculation of the polynomial base.
