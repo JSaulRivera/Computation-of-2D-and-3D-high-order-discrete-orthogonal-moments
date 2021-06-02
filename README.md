@@ -48,3 +48,9 @@ https://sciencegatepub.com/?smd_process_download=1&download_id=3179
            year={2018},
            publisher={Elsevier}
           }
+
+# Getting Started
+
+1. Download this repository.
+2. To obtain discrete ortogonal moments of image test  run the file "Discrete_orthogonal_moments.m" using Matlab.
+3. By default the value assigned for the order of calculation of the moment is the maximum possible. Change the value of "n" in line 10 from "Discrete_orthogonal_moments.m", to obtain different orders of discrete orthogonal moments  form image_test
