@@ -8,24 +8,24 @@ function K=Krawtchouk_polynomials(n,N,p)
 %   discrete-orthogonal-moments.git                                            %
 %                                                                              %
 %                                                                              %
-%   This code calculate the discrete orthogonal Tchebichef polynomial          % 
+%   This code calculate the discrete orthogonal Krawtchouk polynomial          % 
 %   for high order, using Gram-smith orthogonalization.'                       %
 %                                                                              %
 %                                                                              %
 %                                                                              %
 %   Please cite the following documents as:                                    %
 %                                                                              %
-%  *  José S. Rivera-Lopez, César Camacho-Bello, and Lucia                   %
-%     Gutiérrez-Lazcano, Chapter 3: “Computation of 2D and 3D High-order    %
-%     Discrete Orthogonal Moments�?. Recent Progress in Image Moments and     %
+%  *  JosÃ© S. Rivera-Lopez, CÃ©sar Camacho-Bello, and Lucia                   %
+%     GutiÃ©rrez-Lazcano, Chapter 3: â€œComputation of 2D and 3D High-order    %
+%     Discrete Orthogonal Momentsâ€?. Recent Progress in Image Moments and     %
 %     Moment Invariants, GCSR Volume 7 (2021), 53-74, DOI: 10.15579/gcsr.      %
 %     vol7.ch3.                                                                %
 %                                                                              %
 %        Bibtex:                                                               %
 %        @article{Rivera2021Recent,                                            %
 %        title={Recent Progress in Image Moments and Moment Invariants},       %
-%        author={José S. Rivera-Lopez and César Camacho-Bello and Lucia      %
-%        Gutiérrez-Lazcano},                                                  %
+%        author={JosÃ© S. Rivera-Lopez and CÃ©sar Camacho-Bello and Lucia      %
+%        GutiÃ©rrez-Lazcano},                                                  %
 %        journal={Science Gate},                                               %
 %        volume={7},                                                           %
 %        pages={53--74},                                                       %
@@ -35,9 +35,9 @@ function K=Krawtchouk_polynomials(n,N,p)
 %        }                                                                     %
 %                                                                              %
 %                                                                              %
-%  *  C. Camacho-Bello and J. S. Rivera-Lopez, “Some computational aspects   %
-%     of tchebichef moments for higher orders,�?Pattern Recognition           %
-%     Letters, vol. 112, pp. 332–339, 2018.                                  %
+%  *  C. Camacho-Bello and J. S. Rivera-Lopez, â€œSome computational aspects   %
+%     of tchebichef moments for higher orders,â€?Pattern Recognition           %
+%     Letters, vol. 112, pp. 332â€“339, 2018.                                  %
 %                                                                              %
 %        Bibtex:                                                               % 
 %        @article{camacho2018some,                                             %
