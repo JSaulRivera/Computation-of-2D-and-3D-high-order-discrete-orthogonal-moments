@@ -10,7 +10,7 @@ The high-order orthogonal polynomial base causes a numerical instability that ma
 * Meixner polynomials
 * Charlier polynomials
   
-The source codes of the project are described in the chapter "Computation of 2D and 3D high-order discrete orthogonal moments" of the book "Recent Progress in Moments and Moment Invariants" GCSR Volume 7 Edited by Dr. George A. Papakostas. 
+The source codes of the project are described in the chapter 3: "Computation of 2D and 3D high-order discrete orthogonal moments" of the book "Recent Progress in Moments and Moment Invariants" GCSR Volume 7 Edited by Dr. George A. Papakostas. 
 
 If you find these codes useful as a support tool.
 
