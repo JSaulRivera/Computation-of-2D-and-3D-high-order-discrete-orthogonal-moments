@@ -38,7 +38,7 @@ https://sciencegatepub.com/?smd_process_download=1&download_id=3179
 
 *    C. Camacho-Bello and J. S. Rivera-Lopez, “Some computational aspects of tchebichef moments for higher orders,”Pattern Recognition Letters, vol. 112, pp. 332–339, 2018.
    
-   Bibtex:
+    Bibtex:
         @article{camacho2018some,
           title={Some computational aspects of Tchebichef moments for higher orders},
           author={Camacho-Bello, C{\'e}sar and Rivera-Lopez, Jos{\'e} S},
