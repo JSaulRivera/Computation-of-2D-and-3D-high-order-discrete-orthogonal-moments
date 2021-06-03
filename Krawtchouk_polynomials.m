@@ -15,17 +15,17 @@ function K=Krawtchouk_polynomials(n,N,p)
 %                                                                              %
 %   Please cite the following documents as:                                    %
 %                                                                              %
-%  *  JosÃ© S. Rivera-Lopez, CÃ©sar Camacho-Bello, and Lucia                   %
-%     GutiÃ©rrez-Lazcano, Chapter 3: â€œComputation of 2D and 3D High-order    %
-%     Discrete Orthogonal Momentsâ€?. Recent Progress in Image Moments and     %
+%  *  José S. Rivera-Lopez, Cesar Camacho-Bello, and Lucia                     %
+%     Gutiérrez-Lazcano, Chapter 3: "Computation of 2D and 3D High-order       %
+%     Discrete Orthogonal Moments". Recent Progress in Image Moments and       %
 %     Moment Invariants, GCSR Volume 7 (2021), 53-74, DOI: 10.15579/gcsr.      %
 %     vol7.ch3.                                                                %
 %                                                                              %
 %        Bibtex:                                                               %
 %        @article{Rivera2021Recent,                                            %
 %        title={Recent Progress in Image Moments and Moment Invariants},       %
-%        author={JosÃ© S. Rivera-Lopez and CÃ©sar Camacho-Bello and Lucia      %
-%        GutiÃ©rrez-Lazcano},                                                  %
+%        author={José S. Rivera-Lopez and César Camacho-Bello and Lucia        %
+%        Gutiérrez-Lazcano},                                                   %
 %        journal={Science Gate},                                               %
 %        volume={7},                                                           %
 %        pages={53--74},                                                       %
