@@ -1,4 +1,4 @@
-function M=Meixner_polynomials(n,N,a1,b)
+function M=Meixner_polynomials(n,N,u,b)
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -59,8 +59,8 @@ n=n-1;
 
 
 for x=1:N   
- M(1,x)= sqrt(Pochhamer(x,b-1)*(((a1^(x-1)))/(factorial(b-1)))*((1-a1)^b));
- M(2,x)= (b+(x-1)-((x-1)/a1))*sqrt(M(1,x)/(b));
+ M(1,x)= sqrt(Pochhamer(x,b-1)*(((u^(x-1)))/(factorial(b-1)))*((1-u)^b));
+ M(2,x)= (b+(x-1)-((x-1)/u))*sqrt(M(1,x)/(b));
 end
 
 
@@ -83,7 +83,7 @@ for n=2:q
     
    for x=1:N 
         
-       BD =- (((x-1)-((x-1)*a1)-n+1-(a1*n)+a1-(b*a1))*sqrt(a1))/a1;
+       BD =- (((x-1)-((x-1)*u)-n+1-(u*n)+u-(b*u))*sqrt(u))/u;
        M(n+1,x)=(BD.*M(n,x)-An*M(n-1,x))/An2;
 
    end
