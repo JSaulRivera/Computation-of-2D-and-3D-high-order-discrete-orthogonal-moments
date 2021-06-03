@@ -15,9 +15,9 @@ function M=Meixner_polynomials(n,N,a1,b)
 %                                                                              %
 %   Please cite the following documents as:                                    %
 %                                                                              %
-%  *  JosÃ© S. Rivera-Lopez, CÃ©sar Camacho-Bello, and Lucia                   %
-%     GutiÃ©rrez-Lazcano, Chapter 3: â€œComputation of 2D and 3D High-order    %
-%     Discrete Orthogonal Momentsâ€?. Recent Progress in Image Moments and     %
+%  *  José S. Rivera-Lopez, César Camacho-Bello, and Lucia                     %
+%     Gutiérrez-Lazcano, Chapter 3: "Computation of 2D and 3D High-order       %
+%     Discrete Orthogonal Moments". Recent Progress in Image Moments and       %
 %     Moment Invariants, GCSR Volume 7 (2021), 53-74, DOI: 10.15579/gcsr.      %
 %     vol7.ch3.                                                                %
 %                                                                              %
@@ -35,8 +35,8 @@ function M=Meixner_polynomials(n,N,a1,b)
 %        }                                                                     %
 %                                                                              %
 %                                                                              %
-%  *  C. Camacho-Bello and J. S. Rivera-Lopez, â€œSome computational aspects   %
-%     of tchebichef moments for higher orders,â€?Pattern Recognition           %
+%  *  C. Camacho-Bello and J. S. Rivera-Lopez, Some computational aspects      %
+%     of tchebichef moments for higher orders, Pattern Recognition             %
 %     Letters, vol. 112, pp. 332â€“339, 2018.                                  %
 %                                                                              %
 %        Bibtex:                                                               % 
