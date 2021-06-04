@@ -65,15 +65,15 @@ K(2,:)= ((x-p*N).* K(1,:)/sqrt(N*p*(1-p)));
    
 
 i=1;
-An=sqrt((N-i+1)*i);
+w1=sqrt((N-i+1)*i);
 
 
 for i=2:n
     
-    An2=sqrt((N-i+1)*i);
-    Bn=(x-i+1-p*(N-2*i+2))/sqrt(p*(1-p));
+    w2=sqrt((N-i+1)*i);
+    wn=(x-i+1-p*(N-2*i+2))/sqrt(p*(1-p));
    
-    K(i+1,:)=(Bn.*K(i,:)-An.*K(i-1,:))/An2;
+    K(i+1,:)=(wn.*K(i,:)-w1.*K(i-1,:))/w2;
     An=An2     ;
       
 end
