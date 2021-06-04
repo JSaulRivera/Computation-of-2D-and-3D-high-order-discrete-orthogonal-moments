@@ -88,7 +88,7 @@ for n=2:q
 
    end
     
-   Aw=w2;  
+   w1=w2;  
     
    h=sqrt(sum(M(n+1,:).^2))+eps;
    M2(n+1,:)=M(n+1,:);
