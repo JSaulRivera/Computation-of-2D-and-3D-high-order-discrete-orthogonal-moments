@@ -75,20 +75,20 @@ M(2,:)=M(2,:)./h;
    
  
 q=n;
-w1=sqrt(b);  
+An=sqrt(b);  
 
 for n=2:q
    
-   w2=sqrt((n)*(b+n-1));
+   An1=sqrt((n)*(b+n-1));
     
    for x=1:N 
         
-       w =- (((x-1)-((x-1)*u)-n+1-(u*n)+u-(b*u))*sqrt(u))/u;
-       M(n+1,x)=(w.*M(n,x)-w1*M(n-1,x))/w2;
+       Bn =- (((x-1)-((x-1)*u)-n+1-(u*n)+u-(b*u))*sqrt(u))/u;
+       M(n+1,x)=(Bn.*M(n,x)-An*M(n-1,x))/An1;
 
    end
     
-   w1=w2;  
+   An=An1;  
     
    h=sqrt(sum(M(n+1,:).^2))+eps;
    M2(n+1,:)=M(n+1,:);
