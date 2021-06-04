@@ -57,10 +57,10 @@ function K=Krawtchouk_polynomials(n,N,p)
 
 x=1:N;
 n=n-1;
-w = binopdf(x,N,p);
+cb = binopdf(x,N,p);
    
 
-K(1,:)= sqrt(w);
+K(1,:)= sqrt(cb);
 K(2,:)= ((x-p*N).* K(1,:)/sqrt(N*p*(1-p)));
    
 
@@ -71,10 +71,10 @@ w1=sqrt((N-i+1)*i);
 for i=2:n
     
     w2=sqrt((N-i+1)*i);
-    wn=(x-i+1-p*(N-2*i+2))/sqrt(p*(1-p));
+    w=(x-i+1-p*(N-2*i+2))/sqrt(p*(1-p));
    
-    K(i+1,:)=(wn.*K(i,:)-w1.*K(i-1,:))/w2;
-    An=An2     ;
+    K(i+1,:)=(w.*K(i,:)-w1.*K(i-1,:))/w2;
+    w1=w2 ;
       
 end
 
