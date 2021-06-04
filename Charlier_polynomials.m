@@ -76,15 +76,15 @@ function C=Charlier_polynomials(n,N,a)
    C(2,:)=C(2,:)-(C2(2,:)*C(1,:)').*C(1,:);  
    C(2,:)=C(2,:)./h;
    
-   w1=1;
+   An=1;
      
    for i=2:n
     
-      w2=sqrt(i);
-      w=(a-(x-1)+i-1)/sqrt(a);
+      An1=sqrt(i);
+      Bn=(a-(x-1)+i-1)/sqrt(a);
    
-      C(i+1,:)=(w.*C(i,:)-w1.*C(i-1,:))/w2;
-      w1=w2;  
+      C(i+1,:)=(Bn.*C(i,:)-An.*C(i-1,:))/An1;
+      An=An1;  
       
       h=sqrt(sum(C(i+1,:).^2))+eps;
       C2(i+1,:)=C(i+1,:);
