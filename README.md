@@ -25,18 +25,19 @@ https://sciencegatepub.com/?smd_process_download=1&download_id=3179
 *   José S. Rivera-Lopez, César Camacho-Bello, and Lucia Gutiérrez-Lazcano, Chapter 3. “Computation of 2D and 3D High-order Discrete Orthogonal Moments”. Recent Progress in Image     Moments and Moment Invariants, GCSR Volume 7 (2021), 53-74,  DOI: 10.15579/gcsr.vol7.ch3.
 
         Bibtex:
-       @incollection{Rivera2021Recent,
-        author={José S. Rivera-Lopez and César Camacho-Bello and Lucia Gutiérrez-Lazcano},
-        title       = {Computation of 2D and 3D High-order Discrete Orthogonal Moments},
-        editor      = {George A. Papakostas},
-        booktitle   = {Recent Progress in Image Moments and Moment Invariants},
-        publisher   = {Science Gate},
-        volume={7},
-        pages={53--74},
-        year={2021},
-        URL={https://sciencegatepub.com/sgp-books/gcsr/gcsr_vol7/},
-        ISBN={2241-9063}
-        }
+        @incollection{Rivera2021Recent,
+ author={José S. Rivera-Lopez and César Camacho-Bello and Lucia Gutiérrez-Lazcano},
+title       = {Computation of 2D and 3D High-order Discrete Orthogonal Moments},
+editor      = {George A. Papakostas},
+booktitle   = {Recent Progress in Image Moments and Moment Invariants},
+publisher   = {Science Gate},
+volume={7},
+pages={53--74},
+year={2021},
+URL={https://sciencegatepub.com/sgp-books/gcsr/gcsr_vol7/},
+ISBN={2241-9063}
+}
+
 
 *    C. Camacho-Bello and J. S. Rivera-Lopez, “Some computational aspects of tchebichef moments for higher orders,”Pattern Recognition Letters, vol. 112, pp. 332–339, 2018.
    
